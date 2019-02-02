@@ -1,0 +1,5 @@
+apt-get update
+apt-get upgrade
+apt-get install -y git build-essential
+
+#docker run -it --rm --name test06 debian 

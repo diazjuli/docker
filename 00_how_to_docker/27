@@ -1,0 +1,1 @@
+docker service logs -f `docker service ps --filter "name=engineering-bay.1" --filter "desired-state=ready" --filter "desired-state=running" engineering-bay -q`
